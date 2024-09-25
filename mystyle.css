@@ -13,12 +13,13 @@ body
 .content 
 {
     background-color: rgba(0, 0, 0, 0.6); 
-    width: 80%;
+    width: 60%;
     max-width: 800px;
     margin: 40px auto;
-    padding: 30px;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    float right: ;
 }
 
 .header 
@@ -30,7 +31,8 @@ body
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7); 
-    font-size: 2.7em;
+    font-size: 2em;
+    margin: 0px 100px
 }
 
 .image 
@@ -112,4 +114,19 @@ a
 
 .menu a:hover {
     text-decoration: underline;
+}
+
+.menu a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+nav {
+    width: 20%; 
+    border-radius: 5px;
+    float: left ;
+    
+    
 }
