@@ -100,3 +100,16 @@ a
     border-radius: 10px;
     padding: 10px;
 }
+
+.menu {
+    list-style-type: none;
+    padding: 20PX;
+}
+
+.menu li {
+    margin: 10px ;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
