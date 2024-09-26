@@ -19,7 +19,7 @@ body
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    float right: ;
+    
 }
 
 .header 
@@ -32,13 +32,15 @@ body
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.7); 
     font-size: 2em;
-    margin: 0px 100px
+    margin: 50px 100px 0;
+    margin-bottom: 20px;
+
 }
 
 .image 
 {
-    width: 150px; 
-    height: 150px; 
+    width: 200px; 
+    height: 200px; 
     border-radius: 50%; 
     object-fit: cover; 
     position: absolute; 
@@ -101,32 +103,40 @@ a
     background-color: wheat;
     border-radius: 10px;
     padding: 10px;
+    justify-content: center;
 }
 
-.menu {
-    list-style-type: none;
-    padding: 20PX;
-}
-
-.menu li {
-    margin: 10px ;
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-.menu a {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
-    
+header {
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 nav {
-    width: 20%; 
-    border-radius: 5px;
-    float: left ;
-    
-    
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.menu {
+    display: flex; 
+    padding: 0; 
+    list-style: none; 
+}
+
+.menu li {
+    margin: 0 15px; 
+}
+
+
+.menu a {
+    color: #FFD700; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; 
+    transition: background-color 0.3s; 
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 5px; 
 }
