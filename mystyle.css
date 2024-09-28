@@ -8,6 +8,7 @@ body
     font-size: 16px;
     color: rgba(255, 255, 255, 0.9);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeIn 1s ease-in-out;
     
 }
 
@@ -20,6 +21,7 @@ body
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: slideIn 0.5s ease-out;
     
 }
 
@@ -167,5 +169,27 @@ nav {
     }
     100% {
         transform: translateX(-10px);
+    }
+}
+
+@keyframes fadeIn 
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn 
+{
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
